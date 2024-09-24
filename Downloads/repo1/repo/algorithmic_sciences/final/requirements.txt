@@ -1,0 +1,7 @@
+tqdm
+types-tqdm
+tqdm-stubs
+pandas
+matplotlib
+numpy
+pytest

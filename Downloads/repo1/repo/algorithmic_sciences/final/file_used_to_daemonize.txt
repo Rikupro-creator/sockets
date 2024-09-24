@@ -1,0 +1,10 @@
+[Unit]
+Description=Server Service
+
+[Service]
+Restart=always
+WorkingDirectory=/home/moses/Desktop/algorithmic_sciences/server
+ExecStart=/usr/bin/python3 server.py
+
+[Install]
+WantedBy=multi-user.target
